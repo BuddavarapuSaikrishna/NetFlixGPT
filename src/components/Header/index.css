@@ -1,0 +1,12 @@
+.HeaderContainer{
+
+    position: relative;
+}
+
+.netflix-logo{
+
+    width:180px;
+    height:80px;
+    background-color: black;
+    position: absolute;
+}

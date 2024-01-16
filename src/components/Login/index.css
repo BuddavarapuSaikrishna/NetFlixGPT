@@ -1,0 +1,107 @@
+
+.LoginContainer{
+
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/594f8025-139a-4a35-b58d-4ecf8fdc507c/d3c4e455-f0bf-4003-b7cd-511dda6da82a/IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.LoginFormContainer{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    
+}
+
+.FormContainer{
+
+    background-color:black;
+    margin-top:50px;
+    border-radius:10px;
+    padding:20px;
+    width:320px;
+    opacity: 0.9;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+}
+
+@media screen and (min-width:768px){
+    .FormContainer{
+        width:400px;
+    }
+}
+
+.signIn-or-signOut-text{
+    color:#ffffff;
+    align-self: flex-start;
+    margin-left:50px;
+    margin-top:40px;
+}
+
+.Email{
+
+    padding:16px;
+    width:70%;
+    margin-bottom:20px;
+    border-radius:10px;
+    font-size: 16px;
+    border:none;
+}
+
+.Username{
+    padding:16px;
+    width:70%;
+    margin-bottom:20px;
+    border-radius:10px;
+    font-size: 16px;
+    border:none;
+}
+
+.Password{
+
+    padding:16px;
+    width:70%;
+    border-radius:10px;
+    font-size:16px;
+    border:none;
+}
+
+.signIn-btn{
+
+    width:77%;
+    padding:16px;
+    border-radius: 10px;
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+    border:none;
+    cursor:pointer;
+}
+
+.new-to-netflix-text{
+
+    color:#ffffff;
+    align-self: start;
+    margin-left:60px;
+    font-weight:bold;
+}
+
+.errorMsg{
+
+    color:red;
+    align-self: start;
+    margin-left:53px;
+    font-weight:bold;
+}
