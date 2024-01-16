@@ -32,8 +32,6 @@ const Login = () => {
         <div className = "LoginFormContainer">
           <form className = "FormContainer" onSubmit={(e)=>e.preventDefault()}>
             <h1 className = "signIn-or-signOut-text">{signIn?"Sign In":"Sign Up"}</h1>
-            {!signIn && <input  className = "Username" type = "text" placeholder = "Username"/>}
-            <br/>
             <input ref = {email} className = "Email" type = "text" placeholder = "Email Adress"/><br/>
             <input ref = {password} className = "Password" type = "password" placeholder = "Password"/><br/>
             {errorMsg && <p className = "errorMsg">{errorMsg}</p>}
